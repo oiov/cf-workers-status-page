@@ -23,15 +23,6 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
-    
-  - id: vmail-sender # unique identifier
-    name: Vmail Sender Server
-    description: 'Vmail sending server.' # default=empty
-    url: 'https://sender.yesmore.workers.dev/submit' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
 
   - id: search-vmail-dev # unique identifier
     name: search.vmail.dev
@@ -41,3 +32,31 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
+
+  - id: iconce-com # unique identifier
+    name: iconce.com
+    description: 'Svg icon generator.' # default=empty
+    url: 'https://iconce.com' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: inke-app # unique identifier
+    name: Inke.app
+    description: 'AI note app.' # default=empty
+    url: 'https://inke.app' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: dev-yesmore-cc # unique identifier
+    name: dev.yesmore.cc
+    description: 'My blog.' # default=empty
+    url: 'https://dev.yesmore.cc' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
