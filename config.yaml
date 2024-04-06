@@ -22,4 +22,22 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+    
+  - id: vmail-sender # unique identifier
+    name: Vmail Sender
+    description: 'Vmail sending server.' # default=empty
+    url: 'https://sender.yesmore.workers.dev' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+
+  - id: search-vmail-dev # unique identifier
+    name: search.vmail.dev
+    description: 'Google search mirror' # default=empty
+    url: 'https://search.vmail.dev' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
