@@ -60,3 +60,12 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: ai-oihub-cc # unique identifier
+    name: ChatGPT & Gemini & Claude Mirror
+    description: 'ChatGPT & Gemini & Claude Mirror' # default=empty
+    url: 'https://ai.oihub.cc' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
